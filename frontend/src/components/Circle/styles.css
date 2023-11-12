@@ -1,0 +1,18 @@
+.circle-container{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 17px;
+    font-weight: 700;
+}
+.circle-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

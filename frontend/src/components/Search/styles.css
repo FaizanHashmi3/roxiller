@@ -1,0 +1,50 @@
+.search-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem; 
+    color: var(--grey);
+    background-color: var(--darkgrey);
+    width: 20%;
+    border-radius: 3rem;
+}
+
+.search-flex input{
+    background-color:var(--darkgrey);
+    width: 100%;
+    font-family: "inter";
+    font-size: 1rem;
+    color: var(--grey);
+    border: none;
+}
+
+.search-flex input:focus{
+    outline: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 1.5rem;
+
+}
+.select{
+    padding: 1rem 2rem; 
+    color: var(--grey);
+    background-color: var(--darkgrey);
+    width: 20%;
+    border-radius: 3rem;
+}
+#month{
+    background-color:var(--darkgrey);
+    width: 100%;
+    font-family: "inter";
+    font-size: 1rem;
+    color: var(--grey);
+    border: none;
+}
+#month:focus{
+    outline: none;
+}

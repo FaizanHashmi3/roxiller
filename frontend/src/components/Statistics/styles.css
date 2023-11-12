@@ -1,0 +1,22 @@
+.stats{
+    border: 1px solid var(--grey);
+    margin:1rem 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 15rem;
+    row-gap: 1.5rem;
+    background-color: var(--darkgrey);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+.stats-items{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-between;
+    row-gap: 2rem;
+}
+.st{
+    margin-top: 1rem;
+    padding: 1rem;
+}
